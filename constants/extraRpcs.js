@@ -889,6 +889,10 @@ export const extraRpcs = {
         url: "https://arbitrum-goerli.publicnode.com",
         tracking: "none",
         trackingDetails: privacyStatement.publicnode,
+      {
+        url: "https://arbitrum-goerli.blockpi.network/v1/rpc/public",
+        tracking: "limited",
+        trackingDetails: privacyStatement.blockpi,
       },
     ],
   },
